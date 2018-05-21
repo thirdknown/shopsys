@@ -16,6 +16,11 @@ docker exec -it shopsys-framework-php-fpm sh
 composer install
 ```
 
+If you install the application in production, you should install composer optimized
+```
+composer install -o
+```
+
 Composer will prompt you to insert token to avoid GitHub API rate limit. You can create this token on `https://github.com/settings/tokens/new`.
 This token is reusable so keep it for further usage.
 

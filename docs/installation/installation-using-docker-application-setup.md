@@ -16,7 +16,7 @@ docker exec -it shopsys-framework-php-fpm sh
 composer install
 ```
 
-If you install the application in production, you should install composer optimized
+If you are installing the application in production environment, you should install composer optimized.
 ```
 composer install -o
 ```

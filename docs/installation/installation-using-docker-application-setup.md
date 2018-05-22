@@ -17,6 +17,7 @@ composer install
 ```
 
 If you are installing the application in production environment, you should install composer optimized.
+The optimized composer speed up your application.
 ```
 composer install -o
 ```

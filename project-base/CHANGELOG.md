@@ -38,6 +38,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - the new setting requires array instead of string so the parameter `mailer_master_email_address` is wrapped into array in config
 - `FpJsFormValidator` error in console on FE order pages (@vitek-rostislav)
 - failure during Docker image build triggered by `E: Unable to locate package postgresql-client-9.5` (@PetrHeinz, @MattCzerner)
+- `Front/Form/theme.html.twig`: block `checkbox_row` now uses block `form_label` for proper label rendering
+    - the absence of `label` html tag was causing problems with JS validation (the error message was not included in the popup overview) 
 
 ## 7.0.0-alpha1 - 2018-04-12
 - We are releasing version 7 (open-source project known as Shopsys Framework) to better distinguish it from Shopsys 6
